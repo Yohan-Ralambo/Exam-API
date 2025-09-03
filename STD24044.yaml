@@ -37,5 +37,9 @@ paths:
                         type: string
                       model:
                         type: string
+          404:
+            description: car not found
+
+
 
 
