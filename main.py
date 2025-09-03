@@ -15,6 +15,10 @@ class post(BaseModel):
     model: str
     characteristics: object
 
+    class characteristics(BaseModel):
+        maxspeed: int
+        max_fuel_capacity: int
+
 post_stored: List[post] = []
 
 
